@@ -1,0 +1,89 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    background: #F3F5FC;
+}
+
+.input-texto{
+    resize: none;
+    border: none;
+}
+.input-texto::placeholder{
+   color: #0A3871;
+}
+.informacao{
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8;
+}
+#criptografar{
+    background-color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#descriptografar{
+    box-sizing: border-box;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+.caixa{
+    background-image: url(../img/boneco.png);
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-position-x:center;
+    background-attachment: local;
+
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.caixa-texto{
+    background: none;
+    
+}
+.caixa-texto-saida{
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.mensagem{
+    background: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    border: none;
+    resize: none;
+}
+.paragrafo{
+    background: none;
+    font-size: 16px;
+    color: #495057;
+    text-align: center;
+}
+
+.botao-copiar{
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #0A3871;
+}
+
+
+.invisivel{
+    display: none;
+}
